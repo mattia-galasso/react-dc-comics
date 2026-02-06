@@ -67,10 +67,53 @@ a {
 
 /** MAIN */
 
-main {
-  height: 8rem;
-  background-color: #1c1c1c;
+#jumbotron {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+}
+
+#main-box {
+  background-color: #303030;
   color: white;
+}
+
+.comicImage {
+  width: 9rem;
+  height: 9rem;
+  overflow: hidden;
+}
+
+#comics-list figure {
+  width: 9rem;
+}
+
+#comics-list li {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+#comics-list li:first-child img,
+#comics-list li:last-child img {
+  translate: 0 25%;
+  scale: 155%;
+}
+
+#btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#more-btn {
+  width: 12rem;
+  height: 2.5rem;
+  font-size: 0.8rem;
+  background-color: var(--color-blue);
+  color: white;
+  font-weight: 700;
+  border: none;
 }
 
 /** BANNER */
@@ -115,6 +158,7 @@ main {
   background-image: url(../img/footer-bg.jpg);
   color: white;
   padding: 2rem 0;
+  overflow: hidden;
 }
 
 #footerMenu {
@@ -139,10 +183,9 @@ main {
 }
 
 #logoFooter {
-  position: absolute;
-  top: 50%;
-  right: -15%;
-  translate: -50% -50%;
+  height: 500px;
+  scale: 1.2;
+  translate: 61% -20%;
 }
 
 /* SOCIAL */

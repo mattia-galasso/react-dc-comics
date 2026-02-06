@@ -112,9 +112,9 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
+              {/* LOGO FOOTER */}
+              <img src={logoFooter} alt="Logo DC" id="logoFooter" />
             </div>
-            {/* LOGO FOOTER */}
-            <img src={logoFooter} alt="Logo DC" id="logoFooter" />
           </div>
         </section>
 
