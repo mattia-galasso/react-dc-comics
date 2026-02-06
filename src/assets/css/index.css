@@ -168,8 +168,16 @@ a {
 }
 
 .listTitle {
-  margin: 1rem 0;
+  font-size: 1.2rem;
   font-weight: 700;
+}
+
+#list-box {
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 #footerMenu ul {
@@ -185,12 +193,12 @@ a {
 #logoFooter {
   height: 500px;
   scale: 1.2;
-  translate: 61% -20%;
+  translate: 54% -20%;
 }
 
 /* SOCIAL */
 #socialSection {
-  padding: 2rem;
+  padding: 1.2rem;
   background-color: #303030;
   height: 6rem;
 }
@@ -216,7 +224,7 @@ a {
 #socialBox span {
   font-weight: 700;
   color: var(--color-blue);
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 #socialList {
@@ -224,4 +232,5 @@ a {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 13px;
 }
