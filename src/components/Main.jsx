@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import ComicsList from "./comics/ComicsList";
+import CurrentSeries from "./CurrentSeries";
 import Jumbotron from "./Jumbotron";
 import LoadMore from "./LoadMore";
 
@@ -186,6 +187,7 @@ export default function Main() {
       <main>
         <Jumbotron />
         <section className="pt-5 pb-4" id="main-box">
+          <CurrentSeries />
           <div className="container">
             <ComicsList comics={comics} />
             <LoadMore />

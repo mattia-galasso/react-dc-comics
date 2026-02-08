@@ -67,13 +67,34 @@ a {
 
 /** MAIN */
 
+/** JUMBOTRON */
+
 #jumbotron {
   width: 100%;
   height: 20rem;
   overflow: hidden;
 }
 
+/** CURRENT SERIES */
+
+#current-series {
+  background-color: var(--color-blue);
+  position: absolute;
+  top: 0;
+  left: 11%;
+  translate: 0 -50%;
+  width: 12.5rem;
+  height: 2.7rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+/** COMICS LIST */
+
 #main-box {
+  position: relative;
   background-color: #303030;
   color: white;
 }
@@ -99,6 +120,8 @@ a {
   translate: 0 25%;
   scale: 155%;
 }
+
+/** LOAD MORE BTN */
 
 #btn-box {
   display: flex;
