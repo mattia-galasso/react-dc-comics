@@ -6,7 +6,9 @@ export default function Header() {
       <header className="container">
         <div className="navbarContainer">
           {/* LOGO IMAGE */}
-          <img className="DCLogoImage" src={DCLogo} alt="Logo DC" />
+          <div className="logo-container">
+            <img className="DCLogoImage" src={DCLogo} alt="Logo DC" />
+          </div>
 
           {/* NAVBAR */}
           <ul id="navbarList">
@@ -15,7 +17,6 @@ export default function Header() {
             </li>
             <li className="active">
               <a href="#">COMICS</a>
-              <div className="activeBorder"></div>
             </li>
             <li>
               <a href="#">MOVIES</a>
